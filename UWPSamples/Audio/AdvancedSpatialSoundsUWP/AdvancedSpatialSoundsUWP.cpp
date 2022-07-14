@@ -437,7 +437,6 @@ void Sample::StartLoopBack()
 void Sample::StopLoopBack()
 {
     _loopBack._isCaptureActive = false;
-    _loopBack.~CLoopbackCapture();
 }
 
 //--------------------------------------------------------------------------------------

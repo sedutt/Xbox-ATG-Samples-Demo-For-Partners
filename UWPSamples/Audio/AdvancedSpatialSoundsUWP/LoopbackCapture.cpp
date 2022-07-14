@@ -86,7 +86,7 @@ CLoopbackCapture::~CLoopbackCapture()
     {
         CloseHandle(_bufferCompleteEvent);
     }
-    //CoTaskMemFree(_mixFormat);
+    CoTaskMemFree(_mixFormat);
     CloseHandle(_hFile);
 }
 
