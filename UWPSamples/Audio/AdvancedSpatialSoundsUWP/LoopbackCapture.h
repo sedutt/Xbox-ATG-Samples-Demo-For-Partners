@@ -37,7 +37,6 @@ public:
 public:
     HRESULT Initialize(uint32_t numSecsCapture);
     HRESULT Start();
-    HRESULT Stop();
     ~CLoopbackCapture();
 private:
     //worker thread for capturing loopback data
